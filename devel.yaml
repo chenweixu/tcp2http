@@ -1,0 +1,20 @@
+---
+http_server_url: http://10.2.1.5:26000/api/pushdata
+
+http_server:
+  listen_ip: 10.2.1.5
+  listen_port: 26000
+
+  log_file: http_server.log
+  log_level: 20
+
+  ssh_server: 10.2.1.5
+  ssh_port: 2022
+
+
+agent:
+  listen_ip: 10.2.1.5
+  listen_port: 19000
+
+  log_file: local_agent.log
+  log_level: 20
